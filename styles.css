@@ -100,3 +100,94 @@ ul {
     cursor: pointer;
 }
 /* End of Navbar Styles */
+
+/* Main Content */
+#main-container{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    justify-self: start;
+}
+
+/* End of Main Content */
+
+/* Video Container */
+#video-row{
+    justify-self: right;
+    width: 640px;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+ /* Video Container */
+ #video-container{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 18px;
+}
+#video-info{
+    display: flex;
+    height: 40px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #303030;
+}
+
+.like-box{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 10px;
+    gap: 7px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.like-size{
+    font-size: 1.2rem;
+}
+
+.check-circle{
+    font-size: .7rem;
+}
+
+#visualizations{
+    margin-left: 0px;
+}
+
+#user-profile-image{
+    border-radius: 50%;
+    margin-bottom: 130px;
+    height: 50px;
+}
+#container-desc{
+    border-bottom: 1px solid #303030;
+}
+#vdo-info{
+    display: flex;
+    justify-content: space-between;
+}
+#user{
+    display: flex;
+    align-items: center;
+}
+#user-info{
+    margin-left: 15px;
+}
+#user-info p{
+    margin: 0px auto;
+}
+#user-subscribers{
+    font-size: 13px;
+    color: #aaa;
+}
+#inside-btn{
+    background-color: #c00;
+    padding: 10px 16px;
+    border-radius: 2.5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* End of Video Container */
