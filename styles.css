@@ -265,5 +265,29 @@ h2{
     gap: 30px;
     cursor: pointer;
 }
-
 /* End of Comments Styles */
+/* Thumbnail Section */
+#thumbnail-section{
+    padding-top: 24px;
+    padding-right: 24px;
+}
+.mini-video-container{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+.embedded-video-desc{
+    margin-left: 7px;
+}
+.embedded-title{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 0px 4px 0px;
+}
+.embedded-desc{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #aaa;
+    margin: 0px;
+}
+/* Thumbnail Section */
